@@ -1,0 +1,9 @@
+{
+  "name": "messh",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/FOREVEREALIZE/messh.git",
+  "author": "FOREVEREALIZE <felixcrat@gmail.com>",
+  "license": "All Rights Reserved",
+  "private": false
+}
