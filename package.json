@@ -1,9 +1,19 @@
 {
-  "name": "messh",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "repository": "https://github.com/FOREVEREALIZE/messh.git",
-  "author": "FOREVEREALIZE <felixcrat@gmail.com>",
-  "license": "All Rights Reserved",
-  "private": false
+    "name": "messh",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "https://github.com/FOREVEREALIZE/messh.git",
+    "author": "FOREVEREALIZE <felixcrat@gmail.com>",
+    "license": "All Rights Reserved",
+    "private": false,
+    "scripts": {
+        "start": "node ."
+    },
+    "bin": {
+        "messh": "./src/index.js"
+    },
+    "dependencies": {
+        "prompts": "^2.4.2",
+        "yargs": "^17.7.2"
+    }
 }
